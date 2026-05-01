@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sistema web para automatizar la entrega de códigos de verificación a clientes de servicios streaming." />
+  <title>Web de Códigos Automatizada</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-light bg-light-1"></div>
+  <div class="bg-light bg-light-2"></div>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Sistema web para negocios de streaming</span>
+        <h1>Entrega códigos a tus clientes de forma más rápida, ordenada y profesional.</h1>
+        <p class="hero-text">
+          Automatiza el proceso de entrega de códigos de verificación para tus clientes,
+          reduce mensajes repetitivos y mejora tu atención sin depender de revisar correos manualmente todo el día.
+        </p>
+
+        <div class="hero-points">
+          <span>⚡ Atención más rápida</span>
+          <span>🔐 Sin pedir datos personales de tus plataformas</span>
+          <span>🧑‍💻 Instalación guiada en vivo</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#evaluacion" class="btn btn-primary">Ver si este sistema es para mi negocio</a>
+          <a href="#seguridad" class="btn btn-secondary">¿Es seguro?</a>
+          <a href="#solucion" class="btn btn-secondary">Cómo funciona</a>
+        </div>
+
+        <p class="mini-note">
+          Ideal para vendedores o administradores de servicios streaming que necesitan responder códigos de acceso a sus clientes de forma más eficiente.
+        </p>
+      </div>
+
+      <aside class="offer-card glass">
+        <div class="window-dots"><span></span><span></span><span></span></div>
+        <span class="promo-status" id="promoStatus">Promoción activa</span>
+        <h2>40% de descuento</h2>
+        <p>En los 2 primeros meses para nuevos clientes mientras la promoción esté activa.</p>
+
+        <div class="countdown">
+          <div><strong id="days">00</strong><small>Días</small></div>
+          <div><strong id="hours">00</strong><small>Horas</small></div>
+          <div><strong id="minutes">00</strong><small>Min</small></div>
+          <div><strong id="seconds">00</strong><small>Seg</small></div>
+        </div>
+
+        <p class="countdown-text" id="countdownText">
+          Completa la evaluación y, si encaja con tu caso, podrás solicitar la promoción por WhatsApp.
+        </p>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="problema">
+      <div class="container">
+        <div class="section-title center">
+          <span class="eyebrow">El problema</span>
+          <h2>Cuando tus clientes piden códigos, cada minuto cuenta</h2>
+          <p>
+            Si tienes varios clientes, revisar correos manualmente y responder uno por uno puede hacerte perder tiempo,
+            generar demoras y afectar la experiencia de quienes ya contrataron tu servicio.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card glass">
+            <div class="icon">⏳</div>
+            <h3>Respuestas lentas</h3>
+            <p>El cliente espera mientras tú buscas el código en el correo.</p>
+          </article>
+          <article class="info-card glass">
+            <div class="icon">📩</div>
+            <h3>Correos desordenados</h3>
+            <p>Cuando llegan muchos mensajes, encontrar el código correcto se vuelve molesto.</p>
+          </article>
+          <article class="info-card glass">
+            <div class="icon">📱</div>
+            <h3>Demasiados WhatsApp</h3>
+            <p>Pasas más tiempo respondiendo códigos que atendiendo nuevas ventas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="solucion">
+      <div class="container split split-solution">
+        <div>
+          <span class="eyebrow">La solución</span>
+          <h2>Una web pensada para agilizar la entrega de códigos</h2>
+          <p>
+            El sistema se configura según tu forma de trabajo para que puedas atender mejor a tus clientes.
+            La explicación se realiza en vivo y se deja el sistema funcionando paso a paso.
+          </p>
+
+          <ul class="check-list">
+            <li>Organiza el proceso de entrega de códigos.</li>
+            <li>Reduce el tiempo de respuesta con tus clientes.</li>
+            <li>Permite trabajar de forma más profesional.</li>
+            <li>Se explica en vivo antes de dejarlo funcionando.</li>
+          </ul>
+        </div>
+
+        <div class="demo-stack">
+          <div class="media-card glass">
+            <div class="media-head">
+              <span class="eyebrow small-eyebrow">Demostración</span>
+              <h3>Mira cómo funciona</h3>
+            </div>
+            <video class="demo-video" controls preload="metadata">
+              <source src="assets/demo-funcionamiento.mp4" type="video/mp4">
+              Tu navegador no soporta video HTML5.
+            </video>
+
+            <div class="video-result">
+              <strong>Código recibido</strong>
+              <p>Tu cliente solicita el código y el proceso queda más ordenado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="seguridad">
+      <div class="container">
+        <div class="security-box glass">
+          <div>
+            <span class="eyebrow">Seguridad y confianza</span>
+            <h2>No tienes que entregar datos personales de tus plataformas</h2>
+            <p>
+              Este sistema no está diseñado para pedirte contraseñas personales ni datos sensibles de tus plataformas.
+              Todo se explica en vivo para revisar tu caso, configurar el flujo correcto y dejar el sistema funcionando
+              sin exponer información innecesaria.
+            </p>
+          </div>
+          <div class="security-list">
+            <div><strong>01</strong><span>No se solicitan contraseñas personales de tus plataformas.</span></div>
+            <div><strong>02</strong><span>La configuración se explica en vivo antes de activar el sistema.</span></div>
+            <div><strong>03</strong><span>Se orienta el proceso para que entiendas cómo queda funcionando.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="evaluacion">
+      <div class="container">
+        <div class="section-title center">
+          <span class="eyebrow">Evaluación rápida</span>
+          <h2>Responde y mira si esta automatización encaja con tu negocio</h2>
+          <p>
+            No te enviaremos a WhatsApp de inmediato. Primero revisa si realmente este sistema se adapta a lo que necesitas.
+          </p>
+        </div>
+
+        <div class="progress glass">
+          <div class="progress-info">
+            <span>Paso <strong id="stepNumber">1</strong> de 4</span>
+            <span id="stepText">Tipo de negocio</span>
+          </div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        </div>
+
+        <div class="steps-area">
+          <article class="step-card glass active" data-step="1">
+            <span class="step-label">Paso 1</span>
+            <h3>¿Atiendes clientes que usan servicios streaming y necesitan códigos de acceso o verificación?</h3>
+            <p>Por ejemplo, clientes que te escriben cuando la plataforma solicita un código enviado al correo.</p>
+            <div class="actions">
+              <button class="btn btn-primary next-btn" data-next="2">Sí, eso atiendo</button>
+              <button class="btn btn-secondary reject-btn" data-reason="Este sistema está pensado para negocios que atienden clientes de streaming con solicitudes de códigos de acceso o verificación.">No, no es mi caso</button>
+            </div>
+          </article>
+
+          <article class="step-card glass" data-step="2">
+            <span class="step-label">Paso 2</span>
+            <h3>¿Actualmente pierdes tiempo revisando correos para buscar esos códigos y responderlos por WhatsApp?</h3>
+            <p>Si este proceso te quita tiempo o te genera demoras, una automatización puede ayudarte bastante.</p>
+            <div class="actions">
+              <button class="btn btn-primary next-btn" data-next="3">Sí, me quita tiempo</button>
+              <button class="btn btn-secondary next-btn" data-next="3">A veces, pero quiero ordenarlo</button>
+            </div>
+          </article>
+
+          <article class="step-card glass" data-step="3">
+            <span class="step-label">Paso 3</span>
+            <h3>¿Tú eres propietario o administrador autorizado de las cuentas/correos que se usarían en el proceso?</h3>
+            <p>El sistema solo se instala para personas que tienen autorización sobre el proceso que desean automatizar.</p>
+            <div class="actions">
+              <button class="btn btn-primary next-btn" data-next="4">Sí, tengo autorización</button>
+              <button class="btn btn-secondary reject-btn" data-reason="Para instalar este sistema necesitas ser propietario o administrador autorizado del proceso que deseas automatizar.">No tengo autorización</button>
+            </div>
+          </article>
+
+          <article class="step-card glass" data-step="4">
+            <span class="step-label">Resultado</span>
+            <h3>Tu caso sí puede aplicar para la automatización</h3>
+            <p>
+              Ahora elige el plan que más se adapta a tu negocio. Después de seleccionar un plan,
+              podrás continuar por WhatsApp con el mensaje preparado automáticamente.
+            </p>
+
+            <div class="result-grid">
+              <div><span>Estado</span><strong>Compatible</strong></div>
+              <div><span>Promoción</span><strong id="offerResult">Revisando...</strong></div>
+              <div><span>Instalación</span><strong>Guiada en vivo</strong></div>
+            </div>
+
+            <div class="final-offer" id="finalOffer">
+              <span id="finalBadge">Promoción activa</span>
+              <h4 id="finalTitle">40% de descuento en Plan Pro y Plan Ultra</h4>
+              <p id="finalDescription">El Plan Básico no aplica para descuento. Pro y Ultra sí aplican durante los 2 primeros meses mientras la promoción esté activa.</p>
+            </div>
+
+            <div class="plan-selection" id="planSelection">
+              <button class="plan-option" data-plan="basico">
+                <span class="plan-tag neutral">Sin descuento</span>
+                <h4>Plan Básico</h4>
+                <strong>$5 / mes</strong>
+                <p>Diseño estándar sin personalización de marca, servicio 24/7 para entrega automática de códigos, garantía de 30 días y configuración flexible.</p>
+                <small>No aplica para el descuento promocional.</small>
+              </button>
+
+              <button class="plan-option popular" data-plan="pro">
+                <span class="plan-tag">Más elegido</span>
+                <h4>Plan Pro</h4>
+                <strong>$18 / mes</strong>
+                <p>Web con diseño personalizado y marca, entrega automática de códigos 24/7, ideal para ahorrar tiempo y mejorar la atención de tus clientes.</p>
+                <small>Con 40% de descuento: $10.80 / mes durante 2 meses.</small>
+              </button>
+
+              <button class="plan-option" data-plan="ultra">
+                <span class="plan-tag">Más completo</span>
+                <h4>Plan Ultra</h4>
+                <strong>$25 / mes</strong>
+                <p>Web personalizada con marca, entrega automática 24/7 y opción para administrar usuarios con acceso a la web.</p>
+                <small>Con 40% de descuento: $15.00 / mes durante 2 meses.</small>
+              </button>
+            </div>
+
+            <div class="selected-plan-box" id="selectedPlanBox">
+              <span>Plan seleccionado</span>
+              <strong id="selectedPlanName">Aún no has seleccionado un plan</strong>
+              <p id="selectedPlanPrice">Selecciona una opción para continuar por WhatsApp.</p>
+            </div>
+
+            <div class="actions">
+              <button class="btn btn-primary btn-large" id="whatsappBtn" disabled>Continuar por WhatsApp</button>
+              <button class="btn btn-secondary" id="restartBtn">Volver a empezar</button>
+            </div>
+          </article>
+
+          <article class="step-card glass rejected" id="rejectCard">
+            <span class="step-label">Resultado</span>
+            <h3>Por ahora este sistema no parece encajar con tu caso</h3>
+            <p id="rejectReason">No cumples con uno de los criterios necesarios.</p>
+            <div class="actions">
+              <button class="btn btn-secondary" id="retryBtn">Revisar nuevamente</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container">
+        <div class="section-title center">
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Antes de solicitar el sistema</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item glass" open>
+            <summary>¿Tengo que dar contraseñas de mis plataformas?</summary>
+            <p>No. La página aclara que no se piden datos personales sensibles de tus plataformas. La explicación y configuración se realiza en vivo según tu caso.</p>
+          </details>
+          <details class="faq-item glass">
+            <summary>¿La promoción se puede activar y desactivar?</summary>
+            <p>Sí. En el archivo <strong>js/config.js</strong> puedes activar o desactivar la promoción y reiniciar el contador cambiando el valor de <strong>campaignId</strong>.</p>
+          </details>
+          <details class="faq-item glass">
+            <summary>¿Qué mensaje llegará a WhatsApp?</summary>
+            <p>Si la promoción está activa, dirá: “Vengo por el descuento para la web de códigos”. Si no está activa, dirá: “Deseo adquirir el servicio”.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Web de Códigos Automatizada</strong>
+        <p>Servicio de automatización para atención de clientes streaming.</p>
+      </div>
+      <span>Listo para GitHub + Netlify</span>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
