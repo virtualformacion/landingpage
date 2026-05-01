@@ -22,7 +22,7 @@ window.APP_CONFIG = {
       3. Cambia campaignId para iniciar una nueva campaña/cupones.
     */
     enabled: true,
-    endAt: "2026-05-05T23:59:59-05:00",
+    endAt: "2026-05-10T23:59:59-05:00",
     campaignId: "promo-streaming-002",
 
     /*
