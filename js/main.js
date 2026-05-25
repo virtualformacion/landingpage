@@ -12,7 +12,7 @@
   const plans = {
     basico: {
       name: "Plan Básico",
-      price: 5,
+      price: 10,
       discountEligible: false,
       description: "Diseño estándar sin personalización de marca, servicio 24/7 para entrega automática de códigos, garantía de 30 días y configuración flexible."
     },
